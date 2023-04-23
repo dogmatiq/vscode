@@ -12,7 +12,9 @@
       }
     ]
   },
-  "activationEvents": [],
+  "activationEvents": [
+    "onLanguage:go"
+  ],
   "main": "artifacts/dist/extension.js",
   "engines": {
     "vscode": "^1.77.0"
@@ -20,10 +22,12 @@
   "scripts": {
     "watch": "tsc -watch -p ./"
   },
-  "dependencies": {},
+  "dependencies": {
+    "vscode-languageclient": "^8.1.0"
+  },
   "devDependencies": {
-    "@types/vscode": "^1.77.0",
     "@types/node": "^16",
+    "@types/vscode": "^1.77.0",
     "prettier": "^2.7.1",
     "prettier-plugin-organize-imports": "^3.0.1",
     "typescript": "^5.0.2"
