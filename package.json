@@ -17,6 +17,9 @@
   "engines": {
     "vscode": "^1.77.0"
   },
+  "scripts": {
+    "watch": "tsc -watch -p ./"
+  },
   "dependencies": {},
   "devDependencies": {
     "@types/vscode": "^1.77.0",
