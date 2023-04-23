@@ -1,0 +1,28 @@
+{
+  "name": "dogma",
+  "displayName": "Dogma",
+  "description": "Rich support for Dogma applications",
+  "version": "0.1.0",
+  "license": "MIT",
+  "contributes": {
+    "commands": [
+      {
+        "command": "dogma.helloWorld",
+        "title": "Hello World"
+      }
+    ]
+  },
+  "activationEvents": [],
+  "main": "artifacts/dist/extension.js",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/vscode": "^1.77.0",
+    "@types/node": "^16",
+    "prettier": "^2.7.1",
+    "prettier-plugin-organize-imports": "^3.0.1",
+    "typescript": "^5.0.2"
+  }
+}
