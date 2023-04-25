@@ -7,8 +7,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "dogma.helloWorld",
-        "title": "Hello World"
+        "command": "dogma.restartLanguageServer",
+        "title": "Dogma: Restart Language Server"
       }
     ]
   },
