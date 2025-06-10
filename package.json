@@ -26,7 +26,7 @@
     "vscode-languageclient": "^9.0.0"
   },
   "devDependencies": {
-    "@types/node": "^22",
+    "@types/node": "^24",
     "@types/vscode": "^1.77.0",
     "prettier": "^3.0.0",
     "prettier-plugin-organize-imports": "^4.0.0",
